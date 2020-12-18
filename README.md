@@ -69,9 +69,9 @@ here, make sure the class name is the same as the filename.
 
 To your controller
 
-for the index page :  https:// `$site_url`/Hasan
-for the demo page :  https:// `$site_url`/Hasan/demo
-for the add page :  https:// `$site_url`/Hasan/add
++ for the index page :  https:// `$site_url`/Hasan
++ for the demo page :  https:// `$site_url`/Hasan/demo
++ for the add page :  https:// `$site_url`/Hasan/add
 
 
 # Views
