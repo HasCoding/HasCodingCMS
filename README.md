@@ -21,9 +21,9 @@ Change `$site_url`, `$site_session_name` variables to your own.
 
 sonraki ayarlar genel framework yapısı 
 
-+System/Controller/ <- folder with your back-end codes
-+System/Model/ <- folder where your database files are
-+System/View/ <- folder with your front-end codes
++ System/Controller/ <- folder with your back-end codes
++ System/Model/ <- folder where your database files are
++ System/View/ <- folder with your front-end codes
 
 # Creating a Simple Controller
 
