@@ -69,7 +69,10 @@ here, make sure the class name is the same as the filename.
 
 To your controller
 
-You can access it as https:// `$site_url`/controllername.
+for the index page :  https:// `$site_url`/Hasan
+for the demo page :  https:// `$site_url`/Hasan/demo
+for the add page :  https:// `$site_url`/Hasan/add
+
 
 # Views
 Views are used to display information (normally HTML). View files go in the `System/View` folder. Views can be in one of two formats: Standard PHP or PHTML
