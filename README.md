@@ -25,6 +25,10 @@ sonraki ayarlar genel framework yapısı
 + System/Model/ <- folder where your database files are
 + System/View/ <- folder with your front-end codes
 
+# URL Structure
+
+For example for URL = http:// `$site_url`/Controller/Action/Parameters
+
 # Creating a Simple Controller
 
 First create a php file under the System/Controller folder.
@@ -36,9 +40,14 @@ The content of the file should be as follows.
 class Hasan extends Has_Controller
 {
 
-     public function index ()
+     public function index() //
      {
          echo "Controller has been created successfully.";
+     }
+     
+     public function demo($par1="",$par2="")  //demo is action , $par1 and $par2 is parameters
+     {
+          echo $par1;
      }
 
 }
@@ -50,6 +59,8 @@ To your controller
 
 You can access it as https:// `$site_url`/controllername.
 
+# Views
+Views are used to display information (normally HTML). View files go in the `System/View` folder. Views can be in one of two formats: Standard PHP or PHTML
 
 
 
