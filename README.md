@@ -58,7 +58,7 @@ class Hasan extends Has_Controller
                "data1"  = "this is data1",
                ""data2 = "this is data2"
           ]
-          $this->view("User/Add",$data); // User/Add is System/View/User/Add.php , $data is the data sent to the view file
+          $this->view("Hasan/Add",$data); // Hasan/Add is System/View/Hasan/Add.php , $data is the data sent to the view file
      }
     
 
@@ -74,7 +74,7 @@ You can access it as https:// `$site_url`/controllername.
 # Views
 Views are used to display information (normally HTML). View files go in the `System/View` folder. Views can be in one of two formats: Standard PHP or PHTML
 
-**Codes written in System/View/User/Add.php file**
+**Codes written in System/View/Hasan/Add.php file**
 ```php
 
 
