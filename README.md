@@ -35,7 +35,9 @@ First create a php file under the System/Controller folder.
 For example: Let's create a file called `Hasan`.
 The content of the file should be as follows.
 
+**Codes written in System/Controller/Hasan.php file**
 ```php
+
 <?php
 class Hasan extends Has_Controller
 {
@@ -49,6 +51,16 @@ class Hasan extends Has_Controller
      {
           echo $par1;
      }
+     
+     public function add()
+     {
+          $data= [
+               "data1"  = "this is data1",
+               ""data2 = "this is data2"
+          ]
+          $this->view("User/Add",$data); // User/Add is System/View/User/Add.php , $data is the data sent to the view file
+     }
+    
 
 }
 ?>
@@ -62,7 +74,24 @@ You can access it as https:// `$site_url`/controllername.
 # Views
 Views are used to display information (normally HTML). View files go in the `System/View` folder. Views can be in one of two formats: Standard PHP or PHTML
 
+**Codes written in System/View/User/Add.php file**
+```php
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $data1;?></title>
+</head>
+<body>
+    <?php echo $data2;?>
+</body>
+</html>
+
+
+```
 
 
 
