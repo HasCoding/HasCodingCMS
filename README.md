@@ -5,7 +5,7 @@ Simple and Open Source PHP Frameworks
 # Download Realese Version
 + Realede version : [Download](https://github.com/HasCoding/HasCodingCMS/releases "Download HasCodingCMS")
 + Composer install : `composer require hascoding/cms dev-main`
-++ After using composer, move everything in the `/vendor/hascoding/cms` folder to the root directory of your site.
+	+ After using composer, move everything in the `/vendor/hascoding/cms` folder to the root directory of your site.
 
 
 
