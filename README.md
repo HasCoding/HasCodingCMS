@@ -31,6 +31,7 @@ First create a php file under the System/Controller folder.
 For example: Let's create a file called Hasan.
 The content of the file should be as follows.
 
+```php
 <?php
 class Hasan extends Has_Controller
 {
@@ -42,7 +43,7 @@ class Hasan extends Has_Controller
 
 }
 ?>
-
+``` 
 here, make sure the class name is the same as the filename.
 
 To your controller
