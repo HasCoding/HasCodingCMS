@@ -1,6 +1,7 @@
 {
     "name": "hascoding/cms",
     "description": "Simple and Open Source PHP Frameworks",	
+	 "version": "3.0.0",
     "license": "GPL-3.0-or-later",
 	"type" : "library",
 	"minimum-stability" : "dev",
