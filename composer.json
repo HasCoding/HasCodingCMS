@@ -1,6 +1,7 @@
 {
     "name": "hascoding/cms",
-    "description": "Simple and Open Source PHP Frameworks",
+    "description": "Simple and Open Source PHP Frameworks",	
+    "license": "MIT",
     "homepage" : "https://github.com/HasCoding/HasCodingCMS",
     "minimum-stability" : "dev",
     "authors": [
