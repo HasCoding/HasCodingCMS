@@ -30,7 +30,8 @@ System/View  <- front-end kodlarınızın olduğu klasör
 First create a php file under the System/Controller folder.
 For example: Let's create a file called Hasan.
 The content of the file should be as follows.
-<? php
+
+<?php
 class Hasan extends Has_Controller
 {
 
