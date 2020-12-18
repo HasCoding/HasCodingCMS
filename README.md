@@ -2,6 +2,10 @@
 # HasCodingCMS
 Simple and Open Source PHP Frameworks 
 
+# Download Realese Version
+[Download](https://github.com/HasCoding/HasCodingCMS/archive/main.zip "Download HasCodingCMS")
+
+
 # What is HasCodingCMS
 HasCodingCMS is an Application Development Framework - a toolkit - for people who build web sites using PHP.
 Its goal is to enable you to develop projects much faster than you could if you were writing code from scratch,
