@@ -3,7 +3,7 @@
 Simple and Open Source PHP Frameworks 
 
 # Download Realese Version
-[Download](https://github.com/HasCoding/HasCodingCMS/archive/main.zip "Download HasCodingCMS")
+[Download](https://github.com/HasCoding/HasCodingCMS/releases "Download HasCodingCMS")
 
 
 # What is HasCodingCMS
