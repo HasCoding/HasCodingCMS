@@ -4,7 +4,7 @@
     "license": "GPL-3.0-or-later",
 	"type" : "library",
 	"minimum-stability" : "stable",
-	"version" : "v3.0.0",
+	"version" : "3.0.0",
     "homepage" : "https://hascoding.com",
     "authors": [
         {
