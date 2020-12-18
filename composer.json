@@ -2,8 +2,8 @@
     "name": "hascoding/cms",
     "description": "Simple and Open Source PHP Frameworks",	
     "license": "GPL-3.0-or-later",
+	"type" : "library",
     "homepage" : "https://hascoding.com",
-    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "HASAN ERYILMAZ",
