@@ -4,7 +4,7 @@ Simple and Open Source PHP Frameworks
 
 # Download Realese Version
 + Realede version : [Download](https://github.com/HasCoding/HasCodingCMS/releases "Download HasCodingCMS")
-+ Composer install : `composer require hascoding/cms`
++ Composer install : `composer require hascoding/cms dev-main`
 
 
 
