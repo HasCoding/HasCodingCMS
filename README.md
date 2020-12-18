@@ -17,7 +17,7 @@ because of potential security and performance issues, as well as missing feature
 #Installation
 
 Open the zip file to the directory where you will be installing then, in the /System/Config/config.php file.
-Change $ site_url, $ site_session_name variables to your own.
+Change `$site_url`, `$site_session_name` variables to your own.
 
 sonraki ayarlar genel framework yapısı 
 
@@ -28,7 +28,7 @@ System/View  <- front-end kodlarınızın olduğu klasör
 #Creating a Simple Controller
 
 First create a php file under the System/Controller folder.
-For example: Let's create a file called Hasan.
+For example: Let's create a file called `Hasan`.
 The content of the file should be as follows.
 
 ```php
@@ -48,7 +48,10 @@ here, make sure the class name is the same as the filename.
 
 To your controller
 
-You can access it as https://SiteURL/controllername.
+You can access it as https:// `$site_url`/controllername.
+
+
+
 
 
 
