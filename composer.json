@@ -3,8 +3,8 @@
     "description": "Simple and Open Source PHP Framework",	
     "license": "GPL-3.0-or-later",
 	"type": "project",
-	"minimum-stability" : "dev-main",
-	"prefer-stable" : true,
+	"minimum-stability": "dev",
+	"prefer-stable": true
     "homepage" : "https://hascoding.com",
     "authors": [
         {
