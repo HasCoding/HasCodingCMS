@@ -1,7 +1,7 @@
 {
     "name": "hascoding/cms",
     "description": "Simple and Open Source PHP Frameworks",	
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "homepage" : "https://hascoding.com",
     "minimum-stability" : "dev",
     "authors": [
