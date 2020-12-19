@@ -27,7 +27,7 @@ because of potential security and performance issues, as well as missing feature
 Open the zip file to the directory where you will be installing then, in the /System/Config/config.php file.
 Change `$site_url`, `$site_session_name` variables to your own.
 
-sonraki ayarlar genel framework yapısı 
+next settings general framework structure
 
 + System/Controller/ <- folder with your back-end codes
 + System/Model/ <- folder where your database files are
