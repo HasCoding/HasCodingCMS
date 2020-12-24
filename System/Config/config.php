@@ -12,7 +12,7 @@ date_default_timezone_set('Europe/Istanbul');
 ///  developer   -- show error
 ///  product    -- hide error
 ///
-$error_view = "product";
+$error_view = "developer";
 
 
 
