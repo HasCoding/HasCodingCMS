@@ -18,7 +18,6 @@ class HasCodingSystem {
             }
         } else {
             echo "There Is No Such Controller. <br>";
-            echo CONTROLLER.$this->controller.".php";
         }
     }
 

@@ -1,8 +1,30 @@
 <?php
 
-function base_url($par1="")
+function base_url($dir="")
 {
-    return Site_URL.$par1;
+    return Site_URL.$dir;
+}
+function editor($id,$config="")
+{
+    echo "
+            <script src='".base_url()."/System/Editor/text/ckeditor.js'></script>
+            <script>
+                CKEDITOR.replace($id,{
+                    	filebrowserBrowseUrl : '/System/Editor/file/dialog.php?type=2&editor=ckeditor&fldr=',
+	                    filebrowserUploadUrl : '/System/Editor/file/dialog.php?type=2&editor=ckeditor&fldr=',
+	                    filebrowserImageBrowseUrl : '/System/Editor/file/dialog.php?type=1&editor=ckeditor&fldr=',
+                        $config
+                });
+            </script>";
+}
+function includejs($file,$scriptAttr="")
+{
+        echo "<script type='text/javascript' src='".base_url("")."/Assets/js/".$file.".js' ".$scriptAttr."></script>";
+}
+
+function includecss($file)
+{
+        echo "<link rel='stylesheet' type='text/css' href='".base_url("")."/Assets/css/".$file.".css'>";
 }
 
 
@@ -92,7 +114,7 @@ function sef_link($str, $options = array())
     return $options['lowercase'] ? mb_strtolower($str, 'UTF-8') : $str;
 }
 
-function kisalt($par, $uzunluk = 50){
+function shorten($par, $uzunluk = 50){
     if (strlen($par) > $uzunluk){
         $par = mb_substr($par, 0, $uzunluk, "UTF-8")."..";
     }
