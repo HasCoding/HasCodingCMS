@@ -63,7 +63,7 @@ class Hasan extends Has_Controller
      {
           $data= [
                "data1"  = "this is data1",
-               ""data2 = "this is data2"
+               "data2" = "this is data2"
           ]
           $this->view("Hasan/Add",$data); // Hasan/Add is System/View/Hasan/Add.php , $data is the data sent to the view file
      }
